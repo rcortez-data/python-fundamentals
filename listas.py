@@ -44,3 +44,28 @@ for i in range (1,51):
         print("Buzz")
     else:
         print(i)
+
+# Instrucciones:
+# Escribe un programa donde:
+# Tienes un número secreto fijo (puedes usar el que quieras, ej. 42).
+# El programa le pide al usuario que adivine con input().
+# Si el número es muy bajo, imprime "Muy bajo, intenta de nuevo".
+# Si el número es muy alto, imprime "Muy alto, intenta de nuevo".
+# Si adivina, imprime "¡Correcto! Lo lograste en X intentos" y el programa termina.
+# El programa sigue preguntando hasta que adivine.
+
+cuenta = 0
+num = 30
+while True:
+    numero = int(input("Dime un numero: "))
+    cuenta += 1
+    if numero > num:
+        print("Muy alto, intenta de nuevo")
+    elif numero < num:
+        print("Muy bajo, intenta de nuevo")
+    else:
+        print(f"¡Correcto! Lo lograste en {cuenta} intentos")
+        break
+
+
+
