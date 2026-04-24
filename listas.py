@@ -45,6 +45,7 @@ for i in range (1,51):
     else:
         print(i)
 
+# # Ejercicio 3
 # Instrucciones:
 # Escribe un programa donde:
 # Tienes un número secreto fijo (puedes usar el que quieras, ej. 42).
