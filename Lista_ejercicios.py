@@ -45,7 +45,7 @@ for i in range (1,51):
     else:
         print(i)
 
-# # Ejercicio 3
+# # Ejercicio 4
 # Instrucciones:
 # Escribe un programa donde:
 # Tienes un número secreto fijo (puedes usar el que quieras, ej. 42).
@@ -69,7 +69,7 @@ while True:
         break
 
 
-# ejercicio #4
+# ejercicio #5
 
 nombre = input("Escribe tu nombre:")
 puesto = input("Escribe tu puesto:")
@@ -80,7 +80,7 @@ print("Puesto: "+informacion["Puesto"])
 print(f"Salario: ${informacion['Salario']:,.2f}")
 
 
-# Ejercicio #5
+# Ejercicio #6
 
 nombre = input("Dime tu nombre: ")
 calificacion = input("Calificacion español: ")
