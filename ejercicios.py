@@ -1,31 +1,8 @@
-num = int(input("Dime un numero: "))
+numero = int(input("Escribe un numero entero positivo: "))
 
-# Positivo / negativo / cero
-if num > 0:
-    tipo = "positivo"
-elif num < 0:
-    tipo = "negativo"
-else:
-    tipo = "cero"
+suma = 0 
 
-# Par o impar
-if num != 0:
-    if num % 2 == 0:
-        paridad = "par"
-    else:
-        paridad = "impar"
-else:
-    paridad = None
-
-# Tamaño
-if abs(num) >= 1000:
-    tamaño = "grande"
-elif abs(num) >= 100:
-    tamaño = "mediano"
-else:
-    tamaño = "pequeño"
-
-print(f"El número es {tipo}.")
-if paridad is not None:
-    print(f"El número es {paridad}.")
-print(f"El número es {tamaño}.")
+for num in range(1, numero + 1):
+    suma += num 
+    print(num)
+print("La suma es: ", suma)
