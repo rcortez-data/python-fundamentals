@@ -148,3 +148,13 @@ print(f"El número es {tipo}.")
 if paridad is not None:
     print(f"El número es {paridad}.")
 print(f"El número es {tamaño}.")
+
+# Ejercicio #8
+
+for i in range(1, int(input("Dime un numero: "))+1):
+
+    if i % 2 == 0:
+        paridad = "par"
+    else:
+        paridad = "impar"
+    print(f"{i} - {paridad}")
