@@ -1,8 +1,9 @@
-numero = int(input("Escribe un numero entero positivo: "))
+for i in range(1, int(input("Dime un numero: "))+1):
 
-suma = 0 
+    num = i
 
-for num in range(1, numero + 1):
-    suma += num 
-    print(num)
-print("La suma es: ", suma)
+    if num % 2 == 0:
+        paridad = "par"
+    else:
+        paridad = "impar"
+    print(f"{i} {paridad}")
