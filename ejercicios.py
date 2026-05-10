@@ -1,12 +1,9 @@
-def numero(n):
-    for i in range(1, n+1):
-        if i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz")
-        elif i % 3 == 0:
-            print("Fizz")
-        elif i % 5 == 0:
-            print("Buzz")
-        else:
-            print(i)
+def tabla(n):
+    if n == 0:
+        print("cero")
+        return
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n * i}")
+
 n = int(input("Ingresa un número: "))
-numero(n)
+tabla(n)

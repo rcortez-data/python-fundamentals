@@ -201,3 +201,18 @@ def numero(n):
             print(i)
 n = int(input("Ingresa un número: "))
 numero(n)
+
+# Ejercicio #12 
+
+# Ejercicio: tabla(n)
+# Crea una función llamada tabla que reciba un número n e imprima su tabla de multiplicar del 1 al 10.
+
+def tabla(n):
+    if n == 0:
+        print("cero")
+        return
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n * i}")
+
+n = int(input("Ingresa un número: "))
+tabla(n)
