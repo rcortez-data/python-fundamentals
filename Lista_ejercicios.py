@@ -216,3 +216,4 @@ def tabla(n):
 
 n = int(input("Ingresa un número: "))
 tabla(n)
+
