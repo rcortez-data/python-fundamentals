@@ -218,7 +218,13 @@ n = int(input("Ingresa un número: "))
 tabla(n)
 
 # Ejercicio 13
-# Escribe una función es_primo(n) que reciba un número entero y devuelva True si es primo, False si no lo es.
+# Escribe una función fizzbuzz(n) que reciba un número n e imprima todos los números del 1 al n con estas reglas:
+
+# Si es divisible entre 3 → imprime "Fizz"
+# Si es divisible entre 5 → imprime "Buzz"
+# Si es divisible entre 3 y 5 → imprime "FizzBuzz"
+# Si no → imprime el número
+
 
 def fizzbuzz(n):
     for i in range(1,n+1):
