@@ -217,3 +217,18 @@ def tabla(n):
 n = int(input("Ingresa un número: "))
 tabla(n)
 
+# Ejercicio 13
+# Escribe una función es_primo(n) que reciba un número entero y devuelva True si es primo, False si no lo es.
+
+def fizzbuzz(n):
+    for i in range(1,n+1):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        elif i % 5 == 0:
+            print("Buzz")
+        else:
+            print(i)
+n = int(input("Escribe un numero: "))
+fizzbuzz(n)
