@@ -1,12 +1,7 @@
-def fizzbuzz(n):
-    for i in range(1,n+1):
-        if i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz")
-        elif i % 3 == 0:
-            print("Fizz")
-        elif i % 5 == 0:
-            print("Buzz")
-        else:
-            print(i)
-n = int(input("Escribe un numero: "))
-fizzbuzz(n)
+def suma_lista(lista):
+    suma = 0
+    for i in lista:
+        suma = suma + i
+    return suma
+
+print(suma_lista([1, 2, 3, 4, 5]))

@@ -238,3 +238,16 @@ def fizzbuzz(n):
             print(i)
 n = int(input("Escribe un numero: "))
 fizzbuzz(n)
+
+
+# Ejercicio 14
+
+# Escribe una función suma_lista(lista) que reciba una lista de números y devuelva la suma total sin usar sum().
+
+def suma_lista(lista):
+    suma = 0
+    for i in lista:
+        suma = suma + i
+    return suma
+
+print(suma_lista([1, 2, 3, 4, 5]))
