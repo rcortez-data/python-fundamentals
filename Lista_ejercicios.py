@@ -251,3 +251,18 @@ def suma_lista(lista):
     return suma
 
 print(suma_lista([1, 2, 3, 4, 5]))
+
+# Ejercicio 15
+
+# Escribe una función promedio(numeros) que reciba una lista de números y regrese el promedio.
+
+numeros = [10 , 20 , 30]
+def promedio(numeros):
+    resultado = sum(numeros) / len(numeros)
+    return resultado
+print(promedio(numeros))
+
+#Ejercicio 16
+
+# Escribe una función mayor(numeros) que reciba una lista y regrese el número más grande.
+

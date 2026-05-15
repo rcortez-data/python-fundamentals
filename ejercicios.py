@@ -1,7 +1,5 @@
-def suma_lista(lista):
-    suma = 0
-    for i in lista:
-        suma = suma + i
-    return suma
-
-print(suma_lista([1, 2, 3, 4, 5]))
+numeros = [10 , 20 , 30]
+def promedio(numeros):
+    resultado = sum(numeros) / len(numeros)
+    return resultado
+print(promedio(numeros))
