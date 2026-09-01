@@ -264,5 +264,50 @@ print(promedio(numeros))
 
 #Ejercicio 16
 
-# Escribe una función mayor(numeros) que reciba una lista y regrese el número más grande.
+"""Ejercicio — Función tabla(n)
+Crea una función que reciba un número y que imprima su tabla de multiplicar del 1 al 10.
+Ejemplo de lo que debe hacer:
+tabla(7)
 
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+...
+7 x 10 = 70
+Pistas si te trabas:
+
+Necesitas un for loop
+Necesitas f-strings para imprimir el resultado
+range(1, 11) te da los números del 1 al 10"""
+
+
+def tabla(n):
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n * i}")
+
+n = int(input("Escribe un numero a multiplicar: "))
+tabla(n)
+
+
+"""
+Imprime en pantalla únicamente los índices de aquellos nombres de la lista a continuación, que empiecen con M:
+
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+
+Puedes resolverlo de diferentes maneras, pero servirá que tengas presente todos o algunos de los siguientes elementos:
+
+Loops
+
+Condicionales if
+
+El método enumerate()
+
+Métodos de strings o indexado    
+
+"""
+
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+
+for indice, elemento in list((enumerate)(lista_nombres)):
+    if elemento.startswith("M"):
+        print(indice)
