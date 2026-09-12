@@ -24,3 +24,4 @@ Proyecto personal de práctica en Python que permite realizar operaciones básic
 
 ```bash
 python 02_calculadora.py
+```
