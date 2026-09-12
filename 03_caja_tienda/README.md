@@ -21,3 +21,4 @@ Proyecto personal en Python que simula una caja de tienda.
 
 ```bash
 python caja_tienda.py
+```
