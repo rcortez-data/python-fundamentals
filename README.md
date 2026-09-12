@@ -1,11 +1,13 @@
 # Python Fundamentals
 
-Ejercicios y prácticas mientras aprendo Python.
+Ejercicios y mini proyectos personales mientras aprendo Python.
 
 ## Contenido
+
+- Caja de tienda
+- Calculadora en consola
 - Ejercicios básicos de lógica
-- Calculadora de propinas
-- Clasificador de números
 
 ## Objetivo
-Transición a data analysis. En progreso.
+
+Practicar fundamentos de Python mediante proyectos pequeños, claros y funcionales.
