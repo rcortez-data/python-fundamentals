@@ -16,3 +16,8 @@ Proyecto personal en Python que simula una caja de tienda.
 - Ciclos
 - Condicionales
 - Operaciones matemáticas
+
+## Cómo ejecutar
+
+```bash
+python caja_tienda.py
