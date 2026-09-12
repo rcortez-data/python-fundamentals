@@ -31,7 +31,7 @@ print(f"Descuento: ${descuento:.2f}")
 print(f"Total final: ${total_final:.2f}")
 
 if descuento > 0:
-    print(f"¡Se aplico descuento!")
+    print(f"Se aplico descuento")
 else:
-    print(f"¡No se aplico descuento!")
+    print(f"No se aplico descuento")
 
