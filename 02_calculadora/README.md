@@ -23,4 +23,4 @@ Proyecto personal de práctica en Python que permite realizar operaciones básic
 ## Cómo ejecutar
 
 ```bash
-python calculadora.py
+python 02_calculadora.py
